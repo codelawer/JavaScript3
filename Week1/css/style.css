@@ -1,0 +1,14 @@
+#display {
+  display: flex;
+  background: #000;
+  color: #fff;
+}
+
+#display ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#display ul li:nth-child(-n + 5) {
+  flex-basis: 100%;
+}
